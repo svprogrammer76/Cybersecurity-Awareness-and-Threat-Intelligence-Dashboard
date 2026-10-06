@@ -1,0 +1,12 @@
+# Interview preparation (exactly 10 questions and answers)
+
+1. **Explain your project.** I built a local defensive threat intelligence and awareness dashboard. It generates 2,000 reproducible synthetic observations, stores them in SQLite, and presents search, triage, alerts, and awareness learning. The IOC search only queries local data and never contacts an indicator.
+2. **What is threat intelligence?** It is analyzed information about threats that helps an organization make defensive decisions. The context, source, timing, and confidence matter; a feed item is not unquestionable truth.
+3. **What is an IOC?** An observable artifact such as an IP, domain, URL, file hash, or CVE-shaped identifier. It is a lead for investigation and may be stale or benign, so a match alone does not prove compromise.
+4. **How do risk and confidence differ?** Risk estimates how concerning an observation may be for prioritization. Confidence estimates how strong the available evidence is. A high-risk, low-confidence item may deserve review but should be treated cautiously.
+5. **What does enrichment do here?** It gathers local context for an indicator: observed categories, dates, source, scores, related demo records, and notes. It makes no external requests.
+6. **How does MITRE ATT&CK fit?** ATT&CK describes observed adversary behaviors. Tactics represent goals and techniques represent behaviors. I include only a small illustrative mapping on synthetic phishing examples and do not use it to claim attribution.
+7. **How should vulnerabilities be prioritized?** Use validated asset exposure and business context alongside vulnerability severity and exploitability evidence. The demo's CVE-shaped rows are synthetic and are explicitly not verified advisories or real CVSS assessments.
+8. **What does threat correlation tell you?** Shared campaign labels in this demo group related synthetic records for review. Correlation can guide investigation but cannot prove common control, attribution, or an incident.
+9. **Describe the SOC workflow represented.** An analyst reviews an alert, checks evidence and context, documents notes, monitors or closes the item, and follows organizational incident procedures if corroborated. This project demonstrates workflow concepts, not real response automation.
+10. **How do you handle false positives?** Keep provenance and confidence visible, validate context and time, look for corroborating authorized telemetry, and record uncertainty. An IOC or score should support analyst decisions rather than automatically declare compromise.

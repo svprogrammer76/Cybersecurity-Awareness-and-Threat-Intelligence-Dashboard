@@ -1,0 +1,5 @@
+{
+  "training_content_is_not_reputation": true,
+  "modules": "served from backend/app.py",
+  "quiz": "32 synthetic awareness questions served from backend/app.py"
+}

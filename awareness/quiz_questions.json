@@ -1,0 +1,258 @@
+[
+  {
+    "question": "An urgent email asks you to sign in using its link. What is safest?",
+    "options": [
+      "Use the link quickly",
+      "Open the known service directly and report the message",
+      "Forward to colleagues"
+    ]
+  },
+  {
+    "question": "An unexpected MFA prompt appears. What should you do?",
+    "options": [
+      "Approve it",
+      "Deny it and report it",
+      "Share the code"
+    ]
+  },
+  {
+    "question": "What does an IOC match establish?",
+    "options": [
+      "Confirmed compromise",
+      "A lead requiring context and investigation",
+      "Actor identity"
+    ]
+  },
+  {
+    "question": "What is a safe response to an unknown USB?",
+    "options": [
+      "Plug it in",
+      "Give it to IT/security without connecting it",
+      "Take it home"
+    ]
+  },
+  {
+    "question": "What is the purpose of software updates?",
+    "options": [
+      "Address issues including security weaknesses",
+      "Disable monitoring",
+      "Guarantee no risk"
+    ]
+  },
+  {
+    "question": "How should an unusual payment request be verified?",
+    "options": [
+      "Reply to the same message",
+      "Use a separately known contact route",
+      "Assume urgency is proof"
+    ]
+  },
+  {
+    "question": "A suspicious link appears. What should you do?",
+    "options": [
+      "Visit it in private mode",
+      "Do not open it; report it",
+      "Send it to a friend"
+    ]
+  },
+  {
+    "question": "How should work passwords be handled?",
+    "options": [
+      "Reuse one memorable password",
+      "Use unique passwords and an approved manager",
+      "Share with teammates"
+    ]
+  },
+  {
+    "question": "What does MITRE ATT&CK describe?",
+    "options": [
+      "A threat score",
+      "Observed adversary behaviors and knowledge",
+      "An antivirus product"
+    ]
+  },
+  {
+    "question": "What should you do after a suspected incident?",
+    "options": [
+      "Hide it until confirmed",
+      "Report promptly using policy",
+      "Delete all evidence"
+    ]
+  },
+  {
+    "question": "A shared cloud file is no longer needed by a recipient. What now?",
+    "options": [
+      "Leave access forever",
+      "Remove unneeded access per policy",
+      "Make it public"
+    ]
+  },
+  {
+    "question": "A caller requests confidential data urgently. What is safest?",
+    "options": [
+      "Verify identity through an approved channel",
+      "Provide it immediately",
+      "Ask for a personal email"
+    ]
+  },
+  {
+    "question": "Why use MFA?",
+    "options": [
+      "Add a sign-in verification layer",
+      "Replace all updates",
+      "Prove a message is safe"
+    ]
+  },
+  {
+    "question": "What does CVSS help communicate?",
+    "options": [
+      "Vulnerability severity characteristics",
+      "Proof of exploitation",
+      "Actor attribution"
+    ]
+  },
+  {
+    "question": "An IOC can be stale or shared. What follows?",
+    "options": [
+      "Treat as confirmed incident",
+      "Check context and validate before decisions",
+      "Ignore every IOC"
+    ]
+  },
+  {
+    "question": "What is safest on public Wi-Fi?",
+    "options": [
+      "Perform sensitive work without protections",
+      "Use approved secure access methods",
+      "Disable device lock"
+    ]
+  },
+  {
+    "question": "A colleague reports a suspicious message. What is useful?",
+    "options": [
+      "Thank them and follow reporting process",
+      "Ask them to click it",
+      "Delete the report"
+    ]
+  },
+  {
+    "question": "What is data minimization?",
+    "options": [
+      "Keep only data needed for a purpose",
+      "Copy all data",
+      "Share broadly"
+    ]
+  },
+  {
+    "question": "An unknown software update popup appears. What do you do?",
+    "options": [
+      "Install blindly",
+      "Use approved update mechanisms",
+      "Disable security tools"
+    ]
+  },
+  {
+    "question": "What does correlation mean?",
+    "options": [
+      "Evidence of possible relationship, not proof",
+      "Guaranteed attribution",
+      "Confirmed breach"
+    ]
+  },
+  {
+    "question": "A device is lost. What is best?",
+    "options": [
+      "Report promptly to IT/security",
+      "Wait a week",
+      "Post credentials online"
+    ]
+  },
+  {
+    "question": "A known brand name appears in a domain. Is it automatically trustworthy?",
+    "options": [
+      "Yes",
+      "No; verify the exact destination independently",
+      "Only on mobile"
+    ]
+  },
+  {
+    "question": "A file hash matches a synthetic demo record. What does it mean?",
+    "options": [
+      "Malware confirmed",
+      "A dataset match only; investigate context",
+      "File should be executed"
+    ]
+  },
+  {
+    "question": "What is a least-privilege approach?",
+    "options": [
+      "Grant only access needed for work",
+      "Grant administrator access to all",
+      "Share accounts"
+    ]
+  },
+  {
+    "question": "Why protect analyst notes?",
+    "options": [
+      "They may contain sensitive operational context",
+      "They are always public",
+      "They have no security value"
+    ]
+  },
+  {
+    "question": "A security alert triggers. What is the right next step?",
+    "options": [
+      "Review evidence and follow triage process",
+      "Declare breach immediately",
+      "Ignore it"
+    ]
+  },
+  {
+    "question": "What does confidence measure?",
+    "options": [
+      "Evidence quality/credibility",
+      "Potential impact alone",
+      "Number of users"
+    ]
+  },
+  {
+    "question": "How should suspicious URLs be handled in this demo?",
+    "options": [
+      "Open automatically",
+      "Analyze as data without visiting",
+      "Scan externally"
+    ]
+  },
+  {
+    "question": "A colleague asks for an MFA code. What should you do?",
+    "options": [
+      "Send it",
+      "Never share it; verify/report",
+      "Post it in chat"
+    ]
+  },
+  {
+    "question": "What is an appropriate incident report?",
+    "options": [
+      "When, what, and relevant observations through approved channels",
+      "Speculation only",
+      "Public social media post"
+    ]
+  },
+  {
+    "question": "How should AI-generated voice requests be verified?",
+    "options": [
+      "Trust the voice",
+      "Call back via a known number",
+      "Send confidential files"
+    ]
+  },
+  {
+    "question": "Threat intelligence should primarily support what?",
+    "options": [
+      "Informed defensive decisions",
+      "Automatic attribution",
+      "Guaranteed prevention"
+    ]
+  }
+]

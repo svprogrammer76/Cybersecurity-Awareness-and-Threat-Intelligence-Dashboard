@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Phishing awareness",
+    "summary": "Pause before acting on urgent or unexpected messages.",
+    "actions": "Verify through a known channel; report suspicious messages."
+  },
+  {
+    "title": "Password security",
+    "summary": "Use unique passwords and a password manager.",
+    "actions": "Never reuse work credentials; enable MFA."
+  },
+  {
+    "title": "MFA",
+    "summary": "MFA adds a verification step to sign-in.",
+    "actions": "Deny unexpected prompts and report repeated requests."
+  },
+  {
+    "title": "Social engineering",
+    "summary": "Attackers may use urgency, authority, or familiarity.",
+    "actions": "Verify identity before sharing data or approving access."
+  },
+  {
+    "title": "Safe browsing",
+    "summary": "Look carefully at destinations and unexpected downloads.",
+    "actions": "Use approved bookmarks; do not open suspicious URLs."
+  },
+  {
+    "title": "Secure Wi-Fi",
+    "summary": "Public networks can expose sensitive sessions.",
+    "actions": "Use approved secure access and avoid sensitive work on unknown networks."
+  },
+  {
+    "title": "Software updates",
+    "summary": "Updates address known software weaknesses.",
+    "actions": "Install approved updates promptly and restart when required."
+  },
+  {
+    "title": "Ransomware awareness",
+    "summary": "Unexpected encrypted files or extortion notes need rapid reporting.",
+    "actions": "Disconnect per policy and contact the security team; do not investigate alone."
+  },
+  {
+    "title": "Removable media",
+    "summary": "Unknown USB devices may introduce risk.",
+    "actions": "Use only approved media and report found devices."
+  },
+  {
+    "title": "Data privacy",
+    "summary": "Collect and share only information needed for the task.",
+    "actions": "Use approved storage, access controls, and retention rules."
+  },
+  {
+    "title": "Mobile security",
+    "summary": "Phones hold work accounts and sensitive data.",
+    "actions": "Keep devices updated, locked, and report loss promptly."
+  },
+  {
+    "title": "Remote work",
+    "summary": "Home environments still need secure habits.",
+    "actions": "Lock screens, protect conversations, and use approved access methods."
+  },
+  {
+    "title": "Cloud account security",
+    "summary": "Cloud sharing settings can expose data.",
+    "actions": "Review recipients and permissions before sharing."
+  },
+  {
+    "title": "Incident reporting",
+    "summary": "Fast reporting improves response.",
+    "actions": "Report suspected incidents promptly, even if unsure."
+  },
+  {
+    "title": "AI-enabled scam awareness",
+    "summary": "Generated messages and voices can imitate trusted people.",
+    "actions": "Independently verify unusual requests using a known contact method."
+  }
+]

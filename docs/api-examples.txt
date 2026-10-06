@@ -1,0 +1,7 @@
+# Example defensive API request collection
+GET http://127.0.0.1:5000/api/health
+GET http://127.0.0.1:5000/api/stats
+GET http://127.0.0.1:5000/api/threats?severity=HIGH&sort=risk
+GET http://127.0.0.1:5000/api/search?indicator=198.51.100.25
+GET http://127.0.0.1:5000/api/threats/THR-2026-0001
+GET http://127.0.0.1:5000/api/alerts
